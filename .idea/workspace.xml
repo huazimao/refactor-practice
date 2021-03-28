@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00498453-7ab3-43f2-8d61-ce148d376781" name="Default Changelist" comment="" />
+    <list default="true" id="00498453-7ab3-43f2-8d61-ce148d376781" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,8 +16,12 @@
       <list>
         <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -23,6 +31,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1qMsWGcqQ1FusZAUIEaCdw4EBy8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,7 +39,9 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -128,7 +139,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616900822216</updated>
-      <workItem from="1616900824970" duration="6698000" />
+      <workItem from="1616900824970" duration="7441000" />
     </task>
     <servers />
   </component>
@@ -144,22 +155,26 @@
       <screen x="-1" y="-1080" width="1920" height="1040" />
     </state>
     <state x="764" y="-844" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1.-1080.1920.1040@-1.-1080.1920.1040" timestamp="1616902481721" />
-    <state width="1877" height="255" key="GridCell.Tab.0.bottom" timestamp="1616909995906">
+    <state x="559" y="-967" key="CommitChangelistDialog2" timestamp="1616910852235">
       <screen x="-1" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1.-1080.1920.1040@-1.-1080.1920.1040" timestamp="1616909995906" />
-    <state width="1877" height="255" key="GridCell.Tab.0.center" timestamp="1616909995906">
+    <state x="559" y="-967" key="CommitChangelistDialog2/0.0.1920.1040/-1.-1080.1920.1040@-1.-1080.1920.1040" timestamp="1616910852235" />
+    <state width="1877" height="314" key="GridCell.Tab.0.bottom" timestamp="1616910167201">
       <screen x="-1" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.center/0.0.1920.1040/-1.-1080.1920.1040@-1.-1080.1920.1040" timestamp="1616909995906" />
-    <state width="1877" height="255" key="GridCell.Tab.0.left" timestamp="1616909995906">
+    <state width="1877" height="314" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1.-1080.1920.1040@-1.-1080.1920.1040" timestamp="1616910167201" />
+    <state width="1877" height="314" key="GridCell.Tab.0.center" timestamp="1616910167201">
       <screen x="-1" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.left/0.0.1920.1040/-1.-1080.1920.1040@-1.-1080.1920.1040" timestamp="1616909995906" />
-    <state width="1877" height="255" key="GridCell.Tab.0.right" timestamp="1616909995906">
+    <state width="1877" height="314" key="GridCell.Tab.0.center/0.0.1920.1040/-1.-1080.1920.1040@-1.-1080.1920.1040" timestamp="1616910167201" />
+    <state width="1877" height="314" key="GridCell.Tab.0.left" timestamp="1616910167200">
       <screen x="-1" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.right/0.0.1920.1040/-1.-1080.1920.1040@-1.-1080.1920.1040" timestamp="1616909995906" />
+    <state width="1877" height="314" key="GridCell.Tab.0.left/0.0.1920.1040/-1.-1080.1920.1040@-1.-1080.1920.1040" timestamp="1616910167200" />
+    <state width="1877" height="314" key="GridCell.Tab.0.right" timestamp="1616910167201">
+      <screen x="-1" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="314" key="GridCell.Tab.0.right/0.0.1920.1040/-1.-1080.1920.1040@-1.-1080.1920.1040" timestamp="1616910167201" />
     <state x="489" y="-905" key="Maven.ArtifactSearchDialog" timestamp="1616902328776">
       <screen x="-1" y="-1080" width="1920" height="1040" />
     </state>
@@ -168,10 +183,18 @@
       <screen x="-1" y="-1080" width="1920" height="1040" />
     </state>
     <state x="439" y="-985" key="SettingsEditor/0.0.1920.1040/-1.-1080.1920.1040@-1.-1080.1920.1040" timestamp="1616905075137" />
+    <state x="551" y="-827" key="Vcs.Push.Dialog.v2" timestamp="1616910616395">
+      <screen x="-1" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="551" y="-827" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1.-1080.1920.1040@-1.-1080.1920.1040" timestamp="1616910616395" />
     <state x="728" y="-857" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1616909901760">
       <screen x="-1" y="-1080" width="1920" height="1040" />
     </state>
     <state x="728" y="-857" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/-1.-1080.1920.1040@-1.-1080.1920.1040" timestamp="1616909901760" />
+    <state x="681" y="-769" key="git4idea.merge.GitPullDialog" timestamp="1616910610594">
+      <screen x="-1" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="681" y="-769" key="git4idea.merge.GitPullDialog/0.0.1920.1040/-1.-1080.1920.1040@-1.-1080.1920.1040" timestamp="1616910610594" />
     <state x="622" y="-855" width="672" height="678" key="search.everywhere.popup" timestamp="1616905024561">
       <screen x="-1" y="-1080" width="1920" height="1040" />
     </state>
