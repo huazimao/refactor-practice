@@ -1,9 +1,12 @@
 package com.kingmao.tdd.tictactoe;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.*;
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.Mockito.doThrow;
 
 /**
  * @author QX
@@ -18,6 +21,7 @@ class TicTacToeTest {
     public void play_outside_exception() {
         //assertJ，以方法为主题进行断言
         assertThatThrownBy(() ->{ticTacToe.play(2,12);}).isInstanceOf(RuntimeException.class);
+
 
     }
 
@@ -53,7 +57,17 @@ class TicTacToeTest {
         ticTacToe.play(2, 1); // X
         ticTacToe.play(2, 2); // O
         String actual = ticTacToe.play(3, 1); // X
+    }
 
+    @Test
+    @Disabled
+    @DisplayName("测试mock")
+    public void mock(TicTacToe ticTacToe){
+
+
+        doThrow(RuntimeException.class).when(this.ticTacToe.play(any(), any()));
+        assertThatThrownBy(() ->{
+            this.ticTacToe.play(1,1);}).isInstanceOf(RuntimeException.class);
     }
 
 }
