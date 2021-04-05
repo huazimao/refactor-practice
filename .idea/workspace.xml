@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00498453-7ab3-43f2-8d61-ce148d376781" name="Default Changelist" comment="feat(tdd): TicTacToe 练习">
+    <list default="true" id="00498453-7ab3-43f2-8d61-ce148d376781" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingmao/tdd/gildedrose/GildedRose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/tdd/gildedrose/GildedRose.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingmao/tdd/gildedrose/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/tdd/gildedrose/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kingmao/tdd/gildedrose/TextTestFixture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kingmao/tdd/gildedrose/TextTestFixture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingmao/tdd/api/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/api/Api.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingmao/tdd/connect4/Connect4TDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/connect4/Connect4TDD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingmao/tdd/gildedrose/GildedRose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/gildedrose/GildedRose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingmao/tdd/gildedrose/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/gildedrose/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingmao/tdd/marsrover/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/marsrover/Direction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingmao/tdd/marsrover/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/marsrover/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingmao/tdd/marsrover/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/marsrover/Planet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingmao/tdd/marsrover/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/marsrover/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingmao/tdd/marsrover/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/marsrover/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingmao/tdd/tictactoe/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/tictactoe/TicTacToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kingmao/tdd/api/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kingmao/refactor/api/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kingmao/tdd/connect4/Connect4TDDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kingmao/refactor/connect4/Connect4TDDTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kingmao/tdd/gildedrose/GildedRoseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kingmao/refactor/gildedrose/GildedRoseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kingmao/tdd/gildedrose/TextTestFixture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kingmao/refactor/gildedrose/TextTestFixture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kingmao/tdd/marsrover/ShipTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kingmao/refactor/marsrover/ShipTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kingmao/tdd/tictactoe/TicTacToeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kingmao/refactor/tictactoe/TicTacToeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kingmao/tdd/api/Api.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kingmao/tdd/tictactoe/TicTacToe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kingmao/tdd/api/ApiTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kingmao/tdd/tictactoe/TicTacToeTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +68,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/exchange-all/chainup-hashrate-saas-service" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -85,7 +103,7 @@
       <module name="tdd-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kingmao.tdd.gildedrose.*" />
+          <option name="PATTERN" value="com.kingmao.refactor.gildedrose.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,41 +128,41 @@
       <module name="tdd-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kingmao.tdd.gildedrose.*" />
+          <option name="PATTERN" value="com.kingmao.refactor.gildedrose.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kingmao.tdd.gildedrose" />
-      <option name="MAIN_CLASS_NAME" value="com.kingmao.tdd.gildedrose.GildedRoseTest" />
+      <option name="PACKAGE_NAME" value="com.kingmao.refactor.gildedrose" />
+      <option name="MAIN_CLASS_NAME" value="com.kingmao.refactor.gildedrose.GildedRoseTest" />
       <option name="METHOD_NAME" value="always_equals_base_line" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.kingmao.tdd in tdd-practice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="com.kingmao.refactor in tdd-practice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kingmao.tdd.*" />
+          <option name="PATTERN" value="com.kingmao.refactor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kingmao.tdd" />
+      <option name="PACKAGE_NAME" value="com.kingmao.refactor" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.kingmao.tdd.gildedrose in tdd-practice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="com.kingmao.refactor.gildedrose in tdd-practice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kingmao.tdd.gildedrose.*" />
+          <option name="PATTERN" value="com.kingmao.refactor.gildedrose.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kingmao.tdd.gildedrose" />
+      <option name="PACKAGE_NAME" value="com.kingmao.refactor.gildedrose" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,8 +173,8 @@
         <item itemvalue="JUnit.GildedRoseTest.always_equals_base_line" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test2" />
-        <item itemvalue="JUnit.com.kingmao.tdd in tdd-practice" />
-        <item itemvalue="JUnit.com.kingmao.tdd.gildedrose in tdd-practice" />
+        <item itemvalue="JUnit.com.kingmao.refactor in tdd-practice" />
+        <item itemvalue="JUnit.com.kingmao.refactor.gildedrose in tdd-practice" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +207,8 @@
       <workItem from="1616984184718" duration="9604000" />
       <workItem from="1617019615998" duration="8126000" />
       <workItem from="1617176352169" duration="15578000" />
-      <workItem from="1617345728321" duration="11119000" />
+      <workItem from="1617345728321" duration="13675000" />
+      <workItem from="1617608434965" duration="209000" />
     </task>
     <task id="LOCAL-00001" summary="feat(tdd): add readme">
       <created>1616910892175</created>
@@ -226,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617345757306</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat(tdd): rollback GildedRose">
+      <created>1617360026117</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617360026117</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +262,8 @@
     <MESSAGE value="feat(tdd): add readme" />
     <MESSAGE value="feat(tdd): update readme" />
     <MESSAGE value="feat(tdd): TicTacToe 练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(tdd): TicTacToe 练习" />
+    <MESSAGE value="feat(tdd): rollback GildedRose" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(tdd): rollback GildedRose" />
   </component>
   <component name="WindowStateProjectService">
     <state x="551" y="-901" key="#Project_Structure" timestamp="1616904815276">
@@ -265,55 +292,55 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617351218581" />
-    <state x="560" y="113" key="CommitChangelistDialog2" timestamp="1617346387052">
+    <state x="560" y="113" key="CommitChangelistDialog2" timestamp="1617360025386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="559" y="-967" key="CommitChangelistDialog2/0.0.1920.1040/-1.-1080.1920.1040@-1.-1080.1920.1040" timestamp="1616911150944" />
-    <state x="560" y="113" key="CommitChangelistDialog2/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617346387052" />
+    <state x="560" y="113" key="CommitChangelistDialog2/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617360025386" />
     <state x="184" y="92" key="DiffContextDialog" timestamp="1617346385971">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="92" key="DiffContextDialog/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617346385971" />
-    <state width="1877" height="332" key="GridCell.Tab.0.bottom" timestamp="1617360004296">
+    <state width="1877" height="332" key="GridCell.Tab.0.bottom" timestamp="1617608658702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="394" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1.-1080.1920.1040@-1.-1080.1920.1040" timestamp="1617099000553" />
-    <state width="1877" height="332" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617360004296" />
+    <state width="1877" height="332" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617608658702" />
     <state width="1877" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/9.-1080.1920.1040@0.0.1920.1040" timestamp="1616920730630" />
-    <state width="1877" height="332" key="GridCell.Tab.0.center" timestamp="1617360004296">
+    <state width="1877" height="332" key="GridCell.Tab.0.center" timestamp="1617608658701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="394" key="GridCell.Tab.0.center/0.0.1920.1040/-1.-1080.1920.1040@-1.-1080.1920.1040" timestamp="1617099000553" />
-    <state width="1877" height="332" key="GridCell.Tab.0.center/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617360004296" />
+    <state width="1877" height="332" key="GridCell.Tab.0.center/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617608658701" />
     <state width="1877" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/9.-1080.1920.1040@0.0.1920.1040" timestamp="1616920730629" />
-    <state width="1877" height="332" key="GridCell.Tab.0.left" timestamp="1617360004296">
+    <state width="1877" height="332" key="GridCell.Tab.0.left" timestamp="1617608658700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="394" key="GridCell.Tab.0.left/0.0.1920.1040/-1.-1080.1920.1040@-1.-1080.1920.1040" timestamp="1617099000553" />
-    <state width="1877" height="332" key="GridCell.Tab.0.left/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617360004296" />
+    <state width="1877" height="332" key="GridCell.Tab.0.left/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617608658700" />
     <state width="1877" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/9.-1080.1920.1040@0.0.1920.1040" timestamp="1616920730629" />
-    <state width="1877" height="332" key="GridCell.Tab.0.right" timestamp="1617360004296">
+    <state width="1877" height="332" key="GridCell.Tab.0.right" timestamp="1617608658701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="394" key="GridCell.Tab.0.right/0.0.1920.1040/-1.-1080.1920.1040@-1.-1080.1920.1040" timestamp="1617099000553" />
-    <state width="1877" height="332" key="GridCell.Tab.0.right/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617360004296" />
+    <state width="1877" height="332" key="GridCell.Tab.0.right/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617608658701" />
     <state width="1877" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/9.-1080.1920.1040@0.0.1920.1040" timestamp="1616920730629" />
-    <state width="1877" height="220" key="GridCell.Tab.1.bottom" timestamp="1617347377334">
+    <state width="1877" height="220" key="GridCell.Tab.1.bottom" timestamp="1617363908272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="220" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617347377334" />
-    <state width="1877" height="220" key="GridCell.Tab.1.center" timestamp="1617347377334">
+    <state width="1877" height="220" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617363908272" />
+    <state width="1877" height="220" key="GridCell.Tab.1.center" timestamp="1617363908272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="220" key="GridCell.Tab.1.center/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617347377334" />
-    <state width="1877" height="220" key="GridCell.Tab.1.left" timestamp="1617347377334">
+    <state width="1877" height="220" key="GridCell.Tab.1.center/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617363908272" />
+    <state width="1877" height="220" key="GridCell.Tab.1.left" timestamp="1617363908272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="220" key="GridCell.Tab.1.left/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617347377334" />
-    <state width="1877" height="220" key="GridCell.Tab.1.right" timestamp="1617347377334">
+    <state width="1877" height="220" key="GridCell.Tab.1.left/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617363908272" />
+    <state width="1877" height="220" key="GridCell.Tab.1.right" timestamp="1617363908272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="220" key="GridCell.Tab.1.right/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617347377334" />
+    <state width="1877" height="220" key="GridCell.Tab.1.right/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617363908272" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1616925176061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -328,16 +355,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="231" key="RollbackChangesDialog/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617349882397" />
-    <state x="439" y="-985" key="SettingsEditor" timestamp="1617091330523">
-      <screen x="-1" y="-1080" width="1920" height="1040" />
+    <state x="440" y="95" key="SettingsEditor" timestamp="1617608645061">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="439" y="-985" key="SettingsEditor/0.0.1920.1040/-1.-1080.1920.1040@-1.-1080.1920.1040" timestamp="1617091330523" />
-    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1616926011364" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617345832109">
+    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617608645061" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617362882532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="551" y="-827" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1.-1080.1920.1040@-1.-1080.1920.1040" timestamp="1616911155786" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617345832109" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617362882532" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1617178075811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
