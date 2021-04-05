@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00498453-7ab3-43f2-8d61-ce148d376781" name="Default Changelist" comment="feat(refactor): change package name">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/tennis/TennisGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/tennis/TennisGame1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/tennis/TennisGame2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/tennis/TennisGame3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/tennis_origin/TennisGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/tennis_origin/TennisGame1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/tennis_origin/TennisGame2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/tennis_origin/TennisGame3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kingmao/refactor/tennis/TennisGameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="00498453-7ab3-43f2-8d61-ce148d376781" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/tennis/TennisGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/tennis/TennisGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/tennis/TennisGame1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/tennis/TennisGame1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/tennis/TennisGame2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/tennis/TennisGame2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/tennis/TennisGame3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/tennis/TennisGame3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kingmao/refactor/tennis/TennisGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kingmao/refactor/tennis/TennisTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,20 +85,7 @@
       <recent name="com.kingmao.tdd.gildedrose.items" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TennisGameTest.checkAllScoresTennisGame3">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kingmao.tdd.gildedrose.Test" />
-      <module name="tdd-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kingmao.refactor.gildedrose.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TennisTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -131,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TennisGameTest.checkAllScoresTennisGame1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TennisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="refactor-practice" />
       <extension name="coverage">
         <pattern>
@@ -140,14 +122,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.kingmao.refactor.tennis" />
-      <option name="MAIN_CLASS_NAME" value="com.kingmao.refactor.tennis.TennisGameTest" />
+      <option name="MAIN_CLASS_NAME" value="com.kingmao.refactor.tennis.TennisTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TennisTest.checkAllScoresTennisGame1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="refactor-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kingmao.refactor.tennis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kingmao.refactor.tennis" />
+      <option name="MAIN_CLASS_NAME" value="com.kingmao.refactor.tennis.TennisTest" />
       <option name="METHOD_NAME" value="checkAllScoresTennisGame1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TennisGameTest.checkAllScoresTennisGame2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TennisTest.checkAllScoresTennisGame2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="refactor-practice" />
       <extension name="coverage">
         <pattern>
@@ -156,14 +153,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.kingmao.refactor.tennis" />
-      <option name="MAIN_CLASS_NAME" value="com.kingmao.refactor.tennis.TennisGameTest" />
+      <option name="MAIN_CLASS_NAME" value="com.kingmao.refactor.tennis.TennisTest" />
       <option name="METHOD_NAME" value="checkAllScoresTennisGame2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TennisGameTest.checkAllScoresTennisGame3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TennisTest.checkAllScoresTennisGame3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="refactor-practice" />
       <extension name="coverage">
         <pattern>
@@ -172,7 +169,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.kingmao.refactor.tennis" />
-      <option name="MAIN_CLASS_NAME" value="com.kingmao.refactor.tennis.TennisGameTest" />
+      <option name="MAIN_CLASS_NAME" value="com.kingmao.refactor.tennis.TennisTest" />
       <option name="METHOD_NAME" value="checkAllScoresTennisGame3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -198,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TennisGameTest.checkAllScoresTennisGame3" />
-        <item itemvalue="JUnit.TennisGameTest.checkAllScoresTennisGame2" />
-        <item itemvalue="JUnit.TennisGameTest.checkAllScoresTennisGame1" />
+        <item itemvalue="JUnit.TennisTest" />
+        <item itemvalue="JUnit.TennisTest.checkAllScoresTennisGame1" />
+        <item itemvalue="JUnit.TennisTest.checkAllScoresTennisGame3" />
+        <item itemvalue="JUnit.TennisTest.checkAllScoresTennisGame2" />
         <item itemvalue="JUnit.GildedRoseTest.always_equals_base_line" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +235,7 @@
       <workItem from="1617176352169" duration="15578000" />
       <workItem from="1617345728321" duration="13675000" />
       <workItem from="1617608434965" duration="736000" />
-      <workItem from="1617629324763" duration="1537000" />
+      <workItem from="1617629324763" duration="3615000" />
     </task>
     <task id="LOCAL-00001" summary="feat(tdd): add readme">
       <created>1616910892175</created>
@@ -289,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617608885700</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat(refactor): 添加tennis">
+      <created>1617633577416</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617633577416</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +305,7 @@
     <MESSAGE value="feat(tdd): TicTacToe 练习" />
     <MESSAGE value="feat(tdd): rollback GildedRose" />
     <MESSAGE value="feat(refactor): change package name" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(refactor): change package name" />
+    <MESSAGE value="feat(refactor): 添加tennis" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(refactor): 添加tennis" />
   </component>
 </project>
