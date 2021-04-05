@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00498453-7ab3-43f2-8d61-ce148d376781" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingmao/tdd/api/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/api/Api.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingmao/tdd/connect4/Connect4TDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/connect4/Connect4TDD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingmao/tdd/gildedrose/GildedRose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/gildedrose/GildedRose.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingmao/tdd/gildedrose/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/gildedrose/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingmao/tdd/marsrover/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/marsrover/Direction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingmao/tdd/marsrover/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/marsrover/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingmao/tdd/marsrover/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/marsrover/Planet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingmao/tdd/marsrover/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/marsrover/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingmao/tdd/marsrover/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/marsrover/Ship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingmao/tdd/tictactoe/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingmao/refactor/tictactoe/TicTacToe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kingmao/tdd/api/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kingmao/refactor/api/ApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kingmao/tdd/connect4/Connect4TDDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kingmao/refactor/connect4/Connect4TDDTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kingmao/tdd/gildedrose/GildedRoseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kingmao/refactor/gildedrose/GildedRoseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kingmao/tdd/gildedrose/TextTestFixture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kingmao/refactor/gildedrose/TextTestFixture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kingmao/tdd/marsrover/ShipTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kingmao/refactor/marsrover/ShipTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kingmao/tdd/tictactoe/TicTacToeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kingmao/refactor/tictactoe/TicTacToeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kingmao/tdd/api/Api.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kingmao/tdd/tictactoe/TicTacToe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kingmao/tdd/api/ApiTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kingmao/tdd/tictactoe/TicTacToeTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +188,7 @@
       <workItem from="1617019615998" duration="8126000" />
       <workItem from="1617176352169" duration="15578000" />
       <workItem from="1617345728321" duration="13675000" />
-      <workItem from="1617608434965" duration="209000" />
+      <workItem from="1617608434965" duration="736000" />
     </task>
     <task id="LOCAL-00001" summary="feat(tdd): add readme">
       <created>1616910892175</created>
@@ -252,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617360026117</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat(refactor): change package name">
+      <created>1617608885700</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1617608885700</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +250,8 @@
     <MESSAGE value="feat(tdd): update readme" />
     <MESSAGE value="feat(tdd): TicTacToe 练习" />
     <MESSAGE value="feat(tdd): rollback GildedRose" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(tdd): rollback GildedRose" />
+    <MESSAGE value="feat(refactor): change package name" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(refactor): change package name" />
   </component>
   <component name="WindowStateProjectService">
     <state x="551" y="-901" key="#Project_Structure" timestamp="1616904815276">
@@ -292,11 +280,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617351218581" />
-    <state x="560" y="113" key="CommitChangelistDialog2" timestamp="1617360025386">
+    <state x="558" y="92" width="839" height="815" key="CommitChangelistDialog2" timestamp="1617608884852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="559" y="-967" key="CommitChangelistDialog2/0.0.1920.1040/-1.-1080.1920.1040@-1.-1080.1920.1040" timestamp="1616911150944" />
-    <state x="560" y="113" key="CommitChangelistDialog2/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617360025386" />
+    <state x="558" y="92" width="839" height="815" key="CommitChangelistDialog2/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617608884852" />
     <state x="184" y="92" key="DiffContextDialog" timestamp="1617346385971">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -360,11 +348,11 @@
     </state>
     <state x="439" y="-985" key="SettingsEditor/0.0.1920.1040/-1.-1080.1920.1040@-1.-1080.1920.1040" timestamp="1617091330523" />
     <state x="440" y="95" key="SettingsEditor/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617608645061" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617362882532">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617608888664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="551" y="-827" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1.-1080.1920.1040@-1.-1080.1920.1040" timestamp="1616911155786" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617362882532" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1.-1080.1920.1040@0.0.1920.1040" timestamp="1617608888664" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1617178075811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
