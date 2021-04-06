@@ -1,9 +1,5 @@
 package com.kingmao.refactor.api;
 
-import com.kingmao.refactor.tictactoe.TicTacToe;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
-
 import static org.assertj.core.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -14,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 class ApiTest {
 
-    TicTacToe ticTacToe = new TicTacToe();
+/*    TicTacToe ticTacToe = new TicTacToe();
 
     @DisplayName("各种异常的断言")
     @Test
@@ -32,6 +28,6 @@ class ApiTest {
         //assertJ，无异常断肠
         assertThatCode(() ->{ticTacToe.play(2,1);}).doesNotThrowAnyException();
 
-    }
+    }*/
 
 }
