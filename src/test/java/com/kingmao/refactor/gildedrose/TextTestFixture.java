@@ -1,9 +1,6 @@
 package com.kingmao.refactor.gildedrose;
 
 
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
-
 /**
  * @author QX
  * @date 2021/3/30
