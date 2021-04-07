@@ -9,16 +9,8 @@ import java.io.PrintStream;
  * @date 2021/3/30
  */
 public class TextTestFixture {
-
     public static void main(String[] args) {
-        String baseLine = getBaseLine();
-        System.out.println(baseLine);
-    }
-
-    public static String getBaseLine() {
-        ByteArrayOutputStream out = new ByteArrayOutputStream();
-        PrintStream printStream = new PrintStream(out);
-        printStream.println("OMGHAI!");
+        System.out.println("OMGHAI!");
 
         Item[] items = new Item[] {
                 new Item("+5 Dexterity Vest", 10, 20), //
@@ -35,16 +27,18 @@ public class TextTestFixture {
         GildedRose app = new GildedRose(items);
 
         int days = 2;
+        if (args.length > 0) {
+            days = Integer.parseInt(args[0]) + 1;
+        }
 
         for (int i = 0; i < days; i++) {
-            printStream.println("-------- day " + i + " --------");
-            printStream.println("name, sellIn, quality");
+            System.out.println("-------- day " + i + " --------");
+            System.out.println("name, sellIn, quality");
             for (Item item : items) {
-                printStream.println(item);
+                System.out.println(item);
             }
-            printStream.println();
+            System.out.println();
             app.updateQuality();
         }
-        return out.toString();
     }
 }
